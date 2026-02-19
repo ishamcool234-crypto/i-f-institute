@@ -806,6 +806,18 @@ ul {
     transform: translateY(-2px);
 }
 
+.contact-link {
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: var(--transition-fast);
+    border-bottom: 1px dotted rgba(203, 213, 225, 0.5);
+}
+
+.contact-link:hover {
+    color: var(--accent-light);
+    border-bottom-color: var(--accent-light);
+}
+
 /* Footer */
 footer {
     background: var(--primary-dark);
